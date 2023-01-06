@@ -122,6 +122,33 @@ header {
     color: #16D887;
 }
 
+/* Extra Styling */
+
+.extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 130px;
+    align-items: center;
+}
+
+.singer-img{
+    width: 569px;
+    height: 723.3px;
+    margin-left: 206px;
+    margin-right: 87px;
+}
+
+.extra-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
 /* Secone Section of Main Styling */
 
 .my-plans {
