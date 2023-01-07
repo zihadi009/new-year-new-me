@@ -113,6 +113,10 @@ header {
     color: #444343;
 }
 
+.lists .list{
+    list-style: none;
+}
+
 .lists .list {
     list-style-image: url("/images/icons/checkmark.png");
 }
