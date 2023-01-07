@@ -114,17 +114,12 @@ header {
 }
 
 .lists .list {
-    list-style: none;
-}
-
-.lists .list:before {
-    content: '\2714\0020';
-    color: #16D887;
+    list-style-image: url("/images/icons/checkmark.png");
 }
 
 /* Extra Styling */
 
-.extra{
+.extra {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,14 +129,14 @@ header {
     align-items: center;
 }
 
-.singer-img{
+.singer-img {
     width: 569px;
     height: 723.3px;
     margin-left: 206px;
     margin-right: 87px;
 }
 
-.extra-title{
+.extra-title {
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -275,7 +270,7 @@ header {
     margin: auto;
     padding: 130px;
     padding-top: 50px;
-    background-image: linear-gradient(to right, rgba(255, 74, 2,1), rgba(241, 91, 34, 0)), url("images/watch.png");
+    background-image: linear-gradient(to right, rgba(255, 74, 2, 1), rgba(241, 91, 34, 0)), url("images/watch.png");
     background-blend-mode: overlay;
     background-size: cover;
 }
